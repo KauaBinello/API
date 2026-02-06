@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicamentos</title>
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+
+    <button id="btnCarregar">Carregar Medicamentos</button>
+    <button id="btnPaginacao">+</button>
+    <button id="btnPaginacaoMenos">-</button>
+
+    <div class="form">
+        <input type="text" id="campoNome" placeholder="Nome do Medicamento">
+        <input type="text" id="campoEmbalagem" placeholder="Embalagem do Medicamento">
+        <input type="number" id="campoSaldo" placeholder="Saldo do Medicamento">
+        <input type="date" id="campoValidade" placeholder="Validade do Medicamento">
+        <button id="btnInserir">Inserir</button>
+        <p></p>
+    </div>
+
+    <div class="modal" id="modal">
+        <h1>Editar Medicamento</h1>
+        <input type="text" id="campoNome_edit" placeholder="Nome do Medicamento">
+        <input type="text" id="campoEmbalagem_edit" placeholder="Embalagem do Medicamento">
+        <input type="number" id="campoSaldo_edit" placeholder="Saldo do Medicamento">
+        <input type="date" id="campoValidade_edit" placeholder="Validade do Medicamento">
+        <button id="btnSalvar_alteracao">Alterar</button>
+    </div>
+
+    <ul id="listagem"></ul>
+</body>
+
+</html>
